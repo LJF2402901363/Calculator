@@ -163,6 +163,7 @@ public class CalculatorService {
             case '%':
                 result = num1 % num2;
                 break;
+            default:break;
         }
         return result;
     }
@@ -212,6 +213,7 @@ public class CalculatorService {
                         return '>';
                     case '#':
                         return '>';
+                    default:break;
                 }
 
             case '-':
@@ -233,6 +235,7 @@ public class CalculatorService {
                         return '>';
                     case '#':
                         return '>';
+                    default:break;
                 }
             case '*':
                 switch (ch)
@@ -253,6 +256,7 @@ public class CalculatorService {
                         return '>';
                     case '#':
                         return '>';
+                    default:break;
                 }
             case '%':
                 switch (ch)
@@ -273,6 +277,7 @@ public class CalculatorService {
                         return '>';
                     case '#':
                         return '>';
+                    default:break;
                 }
             case '/':
                 switch (ch)
@@ -293,6 +298,7 @@ public class CalculatorService {
                         return '>';
                     case '#':
                         return '>';
+                    default:break;
                 }
             case '(':
                 if (ch == ')')
@@ -311,6 +317,8 @@ public class CalculatorService {
                 else {
                     return '<';
                 }
+            default:
+                break;
         }
         return ' ';
     }
