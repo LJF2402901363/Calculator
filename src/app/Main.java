@@ -1,6 +1,6 @@
 package app;
 
-import view.Calculator;
+import view.CalculatorView;
 
 /**
  * Classname:Main
@@ -12,6 +12,6 @@ import view.Calculator;
  **/
 public class Main {
     public static void main(String[] args) {
-        new Calculator();
+        new CalculatorView();
     }
 }
